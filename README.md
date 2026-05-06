@@ -1,3 +1,3 @@
-# OmniPart: 
+# PhysForge: 
 
-**Project Page**: https://omnipart.github.io/
+**Project Page**: https://hku-mmlab.github.io/PhysForge/
