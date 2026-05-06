@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion" />
+      content="PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World" />
     <meta
       name="keywords"
-      content="Part-Aware 3D Generation" />
+      content="Physics-Grounded 3D Generation" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion
+      PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World
     </title>
 
     <link
@@ -76,6 +76,12 @@
             <div class="navbar-dropdown">
               <a
                 class="navbar-item"
+                href="https://omnipart.github.io/"
+                target="_blank">
+                OmniPart
+              </a>
+              <a
+                class="navbar-item"
                 href="https://vast-ai-research.github.io/HoloPart/"
                 target="_blank">
                 HoloPart
@@ -85,12 +91,6 @@
                 href="https://yhyang-myron.github.io/SAMPart3D-website/"
                 target="_blank">
                 SAMPart3D
-              </a>
-              <a
-                class="navbar-item"
-                href="https://huanngzh.github.io/MIDI-Page/"
-                target="_blank">
-                MIDI
               </a>
             </div>
           </div>
@@ -104,53 +104,55 @@
           <div class="columns is-centered">
             <div class="column is-full-width has-text-centered">
               <h1 class="title is-1 publication-title">
-                OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion
+                PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World
               </h1>
               <h2 class="title is-4 publication-title">
-                SIGGRAPH Asia 2025
+                ICML 2026
               </h2>
               <div class="is-size-5 publication-authors">
                 <a
                   href="https://yhyang-myron.github.io/"
                   target="_blank"
                   >Yunhan Yang*</a
-                ><sup>1</sup>,
+                ><sup>1,2</sup>,
                 <a
-                  href="https://wiserzhou.github.io/"
+                  href="https://chunshi.wang/"
                   target="_blank"
-                  >Yufan Zhou*</a
-                ><sup>3</sup>,
+                  >Chunshi Wang*</a
+                ><sup>3,2</sup>,
                 <a
-                  href="https://scholar.google.com/citations?user=b7ZJV9oAAAAJ"
+                  href="https://jamesyjl.github.io/"
                   target="_blank"
-                  >Yuan-Chen Guo</a
+                  >Junliang Ye*</a
+                ><sup>4,2</sup>,
+                <a
+                  href="https://yang-l1.github.io/"
+                  target="_blank"
+                  >Yang Li</a
                 ><sup>2</sup>,
                 <a
-                  href="https://scholar.google.com/citations?user=5TEI1eAAAAAJ"
+                  href="https://scholar.google.com/citations?user=kgsnw5wAAAAJ"
                   target="_blank"
-                  >Zi-Xin Zou</a
+                  >Zanxin Chen</a
+                ><sup>5</sup>,<br />
+                <a
+                  href="https://huanngzh.github.io/"
+                  target="_blank"
+                  >Zehuan Huang</a
+                ><sup>6</sup>,
+                <a
+                  href="https://yaomarkmu.github.io/"
+                  target="_blank"
+                  >Yao Mu</a
+                ><sup>5</sup>,
+                <a
+                  href="https://scholar.google.com/citations?user=qTIpn-8AAAAJ"
+                  target="_blank"
+                  >Zhuo Chen</a
                 ><sup>2</sup>,
-                <a
-                  href="https://yukun-huang.github.io/"
+                <a href="" 
                   target="_blank"
-                  >Yukun Huang</a
-                ><sup>1</sup>,<br />
-                <a
-                  href="https://scholar.google.com/citations?user=sjFapgUAAAAJ"
-                  target="_blank"
-                  >Ying-Tian Liu</a
-                ><sup>2</sup>,
-                <a
-                  href="https://xh38.github.io/"
-                  target="_blank"
-                  >Hao Xu</a
-                ><sup>4</sup>,
-                <a
-                  href="https://scholar.google.com/citations?user=Dqjnn0gAAAAJ"
-                  target="_blank"
-                  >Ding Liang</a
-                ><sup>2</sup>,
-                <a href="https://yanpei.me/" target="_blank">Yan-Pei Cao</a
+                  >Chunchao Guo</a
                 ><sup>2✉</sup>,
                 <a href="https://xh-liu.github.io/" target="_blank"
                   >Xihui Liu</a
@@ -158,9 +160,9 @@
               </div>
 
               <div class="is-size-5 publication-authors">
-                <sup>1</sup>The University of Hong Kong <sup>2</sup>VAST
+                <sup>1</sup>HKU <sup>2</sup>Tencent Hunyuan
                 <!-- <br /> -->
-                <sup>3</sup>Harbin Institute of Technology <sup>4</sup>Zhejiang University
+                <sup>3</sup>ZJU <sup>4</sup>THU <sup>5</sup>SJTU <sup>6</sup>BUAA
                 <br />
                 <sup>*</sup> Equal Contribution <sup>✉</sup>Corresponding Authors
               </div>
@@ -170,7 +172,7 @@
                   <!-- PDF Link. -->
                   <span class="link-block">
                     <a
-                      href="https://arxiv.org/abs/2507.06165"
+                      href=""
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -192,36 +194,13 @@
                   <!-- Code Link. -->
                   <span class="link-block">
                     <a
-                      href="https://github.com/HKU-MMLab/OmniPart"
+                      href="https://github.com/HKU-MMLab/PhysForge"
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fab fa-github"></i>
                       </span>
                       <span>Code</span>
-                    </a>
-                  </span>
-                  <!-- Model Link. -->
-                  <span class="link-block">
-                    <a
-                      href="https://huggingface.co/omnipart"
-                      target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fa fa-database"></i>
-                      </span>
-                      <span>Model</span>
-                    </a>
-                  </span>
-                  <!-- Demo Link. -->
-                  <span class="link-block">
-                    <a
-                      href="https://huggingface.co/spaces/omnipart/OmniPart"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="far fa-smile"></i>
-                      </span>
-                      <span>Demo</span>
                     </a>
                   </span>
                 </div>
@@ -238,7 +217,7 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-full-width">
             <video controls autoplay muted loop playsinline height="80%">
-              <source src="https://huggingface.co/datasets/omnipart/OmniPart-page-assets/resolve/main/videos/demo.mp4" type="video/mp4" />
+              <source src="./assets/videos/virtual_world.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -253,13 +232,15 @@
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                The creation of 3D assets with explicit, editable part structures is crucial for advancing interactive applications, yet most generative methods produce only monolithic shapes, limiting their utility.
-                We introduce OmniPart, a novel framework for part-aware 3D object generation designed to achieve high semantic decoupling among components while maintaining robust structural cohesion. 
-                OmniPart uniquely decouples this complex task into two synergistic stages: (1) an autoregressive structure planning module generates a controllable, variable-length sequence of 3D part bounding boxes, 
-                critically guided by flexible 2D part masks that allow for intuitive control over part decomposition without requiring direct correspondences or semantic labels; and (2) a spatially-conditioned rectified 
-                flow model, efficiently adapted from a pre-trained holistic 3D generator, synthesizes all 3D parts simultaneously and consistently within the planned layout. Our approach supports user-defined part granularity, 
-                precise localization, and enables diverse downstream applications.
-                Extensive experiments demonstrate that OmniPart achieves state-of-the-art performance, paving the way for more interpretable, editable, and versatile 3D content.
+                Synthesizing physics-grounded 3D assets is a critical bottleneck for interactive virtual worlds and embodied AI. 
+                Existing methods predominantly focus on static geometry, overlooking the functional properties essential for interaction. 
+                We propose that interactive asset generation must be rooted in functional logic and hierarchical physics. 
+                To bridge this gap, we introduce <strong>PhysForge</strong>, a decoupled two-stage framework supported by <strong>PhysDB</strong>, 
+                a large-scale dataset of 150,000 assets with four-tier physical annotations. First, a VLM acts as a 
+                "physical architect" to plan a <strong>Hierarchical Physical Blueprint</strong> defining material, functional, and kinematic constraints. 
+                Second, a physics-grounded diffusion model realizes this blueprint by synthesizing high-fidelity geometry alongside precise 
+                kinematic parameters via a novel <strong>KineVoxel Injection (KVI)</strong> mechanism. Experiments demonstrate that <strong>PhysForge</strong> produces 
+                functionally plausible, simulation-ready assets, providing a robust data engine for interactive 3D content and embodied agents.
               </p>
             </div>
           </div>
@@ -289,188 +270,6 @@
       </div>
     </section> -->
 
-    <!-- Scripts Start -->
-    <script type="module">
-      import { ViewerModule } from "./modules/SceneViewer/scene-viewer.js";
-      import { GSViewerModule } from "./modules/GSViewer/gs-viewer.js";
-
-      const viewer = new ViewerModule(
-        ".scene-viewer",
-        [
-          "000",
-          "001",
-          "003",
-          "004",
-          "005",
-          "006",
-          "007",
-          "010",
-          "011",
-          "012",
-        ],
-        "https://huggingface.co/datasets/omnipart/OmniPart-page-assets/resolve/main/3d-models",
-        // "assets/3d-models",
-        "assets/images"
-      );
-      viewer.init();
-
-      const viewer2 = new ViewerModule(
-        "#scene-viewer-2",
-        [
-          "001",
-          "002",
-          "003",
-          "008",
-          "000",
-          "009",
-        ],
-        "https://huggingface.co/datasets/omnipart/OmniPart-page-assets/resolve/main/3d-models",
-        // "assets/3d-models",
-        "assets/images"
-      );
-      viewer2.init();
-
-      const gsViewer = new GSViewerModule(
-        ".gs-viewer",
-        [
-          "000",
-          "001",
-          "003",
-          "004",
-          "005",
-          "006",
-          "007",
-          "010",
-          "011",
-          "012",
-        ],
-        "https://huggingface.co/datasets/omnipart/OmniPart-page-assets/resolve/main/3d-models",
-        // "assets/3d-models",
-        "assets/images"
-      );
-      gsViewer.init();
-    </script>
-    <!-- Scripts End -->
-
-    <section class="section" style="padding-top: 0">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-full-width">
-            <div class="has-text-centered">
-              <h2 class="title is-3">Interactive Bounding Box and Mesh</h2>
-            </div>
-            <div class="scene-viewer">
-              <!-- Scene Viewer -->
-              <div id="viewer-container">
-                <div id="viewer-left">
-                                     <div class="viewer-label">Bounding Box</div>
-                  <div id="loading-overlay-left" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <div class="loading-spinner"></div>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-                <div id="viewer-right">
-                                     <div class="viewer-label">Mesh</div>
-                  <div id="loading-overlay-right" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <div class="loading-spinner"></div>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-              </div>
-              <div id="button-block" style="text-align: center; margin: 10px auto;"></div>
-              <div class="scene-swiper">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-wrapper" id="image-slider"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-full-width">
-            <div class="has-text-centered">
-              <h2 class="title is-3">3D Gaussian Splatting</h2>
-            </div>
-            <div class="content has-text-justified" style="margin-bottom: 20px;">
-              <!-- <p style="text-align: center;">
-                Compare the original and exploded 3D Gaussian Splatting representations side by side. 
-                Click on the images below to explore different models.
-              </p> -->
-            </div>
-            <div class="gs-viewer">
-              <!-- GS Viewer -->
-              <div id="gs-viewer-container">
-                <div id="gs-viewer-left">
-                  <canvas id="gs-canvas-left"></canvas>
-                  <div class="gs-viewer-label">Combined</div>
-                  <div id="gs-progress-dialog-left" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <progress id="gs-progress-indicator-left" value="0" max="100" style="width: 200px; height: 20px;"></progress>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-                <div id="gs-viewer-right">
-                  <canvas id="gs-canvas-right"></canvas>
-                  <div class="gs-viewer-label">Exploded</div>
-                  <div id="gs-progress-dialog-right" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <progress id="gs-progress-indicator-right" value="0" max="100" style="width: 200px; height: 20px;"></progress>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-              </div>
-              <div id="gs-button-block"></div>
-                             <div class="gs-swiper">
-                 <div class="swiper-button-prev"></div>
-                 <div class="swiper-button-next"></div>
-                 <div class="swiper-wrapper" id="gs-image-slider"></div>
-               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-full-width">
-            <div class="has-text-centered">
-              <h2 class="title is-3">Mask-Guided Multi-Granularity Generation</h2>
-            </div>
-            <div class="scene-viewer" id="scene-viewer-2">
-              <!-- Scene Viewer 2 -->
-              <div id="viewer-container-2">
-                <div id="viewer-left-2">
-                  <div class="viewer-label">Bounding Box</div>
-                  <div id="loading-overlay-left-2" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <div class="loading-spinner"></div>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-                <div id="viewer-right-2">
-                  <div class="viewer-label">Mesh</div>
-                  <div id="loading-overlay-right-2" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: white; padding: 20px; border-radius: 8px; z-index: 10;">
-                    <div class="loading-spinner"></div>
-                    <div style="text-align: center; margin-top: 10px;">Loading...</div>
-                  </div>
-                </div>
-              </div>
-              <div id="button-block-2" style="text-align: center; margin: 10px auto;"></div>
-              <div class="scene-swiper">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-wrapper" id="image-slider-2"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="section">
       <div class="container is-max-desktop">
         <div class="has-text-centered">
@@ -481,9 +280,15 @@
           <div class="column is-full-width">
             <br />
             <img src="./assets/images/pipeline-overview.png" class="" alt="" />
-            OmniPart generates part-aware, controllable, and high-quality 3D content through two key stages: part structure planning and structured part latent generation.
-            Built upon TRELLIS, which provides a spatially structured sparse voxel latent space, OmniPart first predicts part-level bounding boxes via an auto-regressive planner.
-            Then, part-specific latent codes are generated through fine-tuning of a large-scale shape model pretrained on overall objects.
+            PhysForge is a decoupled two-stage framework for physics-grounded 3D asset generation.
+            In <strong>Stage 1 (VLM-based Planning)</strong>, a fine-tuned VLM acts as a "physical architect": taking a single image,
+            an optional 2D mask, and TRELLIS voxel as input, it autoregressively generates a
+            <strong>Hierarchical Physical Blueprint</strong> that specifies per-part bounding boxes, parent-child relationships,
+            joint types, and rich physical properties such as material, mass, intrinsic function, state machines, and atomic affordances.
+            In <strong>Stage 2 (Diffusion-based Generation)</strong>, a diffusion model conditioned on this blueprint employs our novel
+            <strong>KineVoxel Injection (KVI)</strong> mechanism to synergistically synthesize high-fidelity geometry, texture, and
+            precise kinematic parameters (joint origin, axis, and limits) within a unified denoising framework, producing functionally
+            complete, simulation-ready assets.
           </div>
         </div>
       </div>
@@ -499,8 +304,19 @@
         <div class="columns is-centered">
           <div class="column is-full-width">
             <br />
+            <video controls autoplay muted loop playsinline width="100%" style="margin-bottom: 20px;">
+              <source src="./assets/videos/robotic_simulation.mp4" type="video/mp4" />
+            </video>
+            <br />
             <img src="./assets/images/application.png" class="" alt="" />
-            OmniPart generates high-quality part-aware 3D content directly from a single input image and naturally supports a range of downstream applications, including Animation, Mask-Controlled Generation, Multi-Granularity Generation, Material Editing, and Geometry Processing.
+            PhysForge produces functionally complete, simulation-ready 3D assets that directly unlock a range of downstream applications.
+            <strong>(a) Robotic Simulation:</strong> our assets can be imported into simulators such as RoboTwin, where the detailed part-level
+            geometry and precise kinematic parameters allow robotic manipulators to realistically interact with functional parts.
+            <strong>(b) Virtual Worlds:</strong> in game engines and interactive virtual worlds, every part is endowed
+            with physics-grounded attributes, enabling developers to design sophisticated interaction logic directly.
+            <strong>(c) Agent-Environment Interaction:</strong> our VLM-based framework opens a new modality of interaction—an embodied agent
+            can directly query an asset in natural language and receive a text-based physical blueprint with bounding boxes, providing an explicit
+            plan for manipulation.
           </div>
         </div>
       </div>
@@ -516,11 +332,7 @@
           style="padding-bottom: 1.5rem">
           <div class="column is-four-fifths">
             <div class="content has-text-justified">
-              <pre><code>@article{yang2025omnipart,
-  title={Omnipart: Part-aware 3d generation with semantic decoupling and structural cohesion},
-  author={Yang, Yunhan and Zhou, Yufan and Guo, Yuan-Chen and Zou, Zi-Xin and Huang, Yukun and Liu, Ying-Tian and Xu, Hao and Liang, Ding and Cao, Yan-Pei and Liu, Xihui},
-  journal={arXiv preprint arXiv:2507.06165},
-  year={2025}
+              <pre><code>@article{
 }</code></pre>
             </div>
           </div>
@@ -546,10 +358,10 @@
           <div class="column is-full-width">
             <div class="content">
               <p style="text-align: center">
-                Source code can be found at
+                <!-- Source code can be found at
                 <a href="https://github.com/OmniPart/OmniPart.github.io" target="_blank"
                   >OmniPart-Page</a
-                >. 
+                >.  -->
                 The website template is borrowed from
                 <a href="https://nerfies.github.io/" target="_blank">Nerfies</a
                 > and 
