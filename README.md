@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)]()
-[![Paper](https://img.shields.io/badge/📑-Paper-green.svg)]()
+[![Project Page](https://img.shields.io/badge/🏠-Project%20Page-blue.svg)](https://hku-mmlab.github.io/PhysForge/)
+[![Paper](https://img.shields.io/badge/📑-Paper-green.svg)](https://arxiv.org/abs/2605.05163)
 
 </div>
 
